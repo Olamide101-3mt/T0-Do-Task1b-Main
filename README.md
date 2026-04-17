@@ -22,7 +22,7 @@ A simple web application displaying a profile card with user information, hobbie
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Olamide101-3mt/T0-Do-Task1b-Main.git
    ```
 
 2. Navigate to the project directory:
