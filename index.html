@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage 1b - Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="wrapper">
+        <article class="profile-card" data-testid="test-profile-card">
+            
+            <header class="profile-header">
+                <figure class="avatar-container">
+                    <img 
+                        src="https://via.placeholder.com/150" 
+                        alt="Profile picture of Olamide" 
+                        data-testid="test-user-avatar"
+                        class="avatar"
+                    >
+                </figure>
+                <div class="user-info">
+                    <h2 data-testid="test-user-name">Olamide</h2>
+                    <p class="bio" data-testid="test-user-bio">
+                        Aspiring MERN stack developer and educator. Focused on building accessible and high-performance web applications.
+                    </p>
+                </div>
+            </header>
+
+            <section class="time-section">
+                <p class="time-label">Current Epoch Time (ms)</p>
+                <div data-testid="test-user-time" class="time-display" aria-live="polite">
+                    Loading...
+                </div>
+            </section>
+
+            <div class="lists-grid">
+                <section class="list-box" data-testid="test-user-hobbies">
+                    <h3>Hobbies</h3>
+                    <ul id="hobbies-list">
+                        <li>Coding</li>
+                        <li>Teaching</li>
+                        <li>Watching Arsenal</li>
+                    </ul>
+                </section>
+
+                <section class="list-box" data-testid="test-user-dislikes">
+                    <h3>Dislikes</h3>
+                    <ul id="dislikes-list">
+                        <li>Messy Code</li>
+                        <li>Traffic</li>
+                        <li>Poor Documentation</li>
+                    </ul>
+                </section>
+            </div>
+
+            <nav class="social-links" data-testid="test-user-social-links">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a>
+            </nav>
+
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
